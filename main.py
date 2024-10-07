@@ -6,16 +6,16 @@ from discord import app_commands
 from libs import twitch
 
 class Data():
-    tokens_data = open('C:\\Users\\lecho\\OneDrive\\Escritorio\\dbt-twitch-bot-mobile\\data\\token.txt', "r").read().splitlines()
+    tokens_data = open('bot//data//token.txt', "r").read().splitlines()
 
 def update_tok():
     while True:
-        Data.tokens_data = open('C:\\Users\\lecho\\OneDrive\\Escritorio\\dbt-twitch-bot-mobile\\data\\token.txt', "r").read().splitlines()
+        Data.tokens_data = open('bot//data//token.txt', "r").read().splitlines()
         time.sleep(20)
 
 threading.Thread(target=update_tok).start()
 
-config = json.loads(open("C:\\Users\\lecho\\OneDrive\\Escritorio\\dbt-twitch-bot-mobile\\config.json", "r", encoding="utf8").read())
+config = json.loads(open("bot//config.json", "r", encoding="utf8").read())
 
 banner = ""
 embed_color = 10181046
