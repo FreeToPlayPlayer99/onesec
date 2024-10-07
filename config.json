@@ -1,0 +1,12 @@
+{
+  "bot_config": {
+      "server_id": 1280484944069791795,
+      "prefix": "/",
+      "token": "",
+      "channel": 1280485173707931691
+
+  },
+  "tfollow": {
+    "Diamond": 1000
+  }
+} 
