@@ -1,1 +1,61 @@
+§
 
+    Õñéf‰  ã                   ój   — d dl Z d dlZd dlZd dlZd dlZd dlZ G d„ d¦  «        Z G d„ d¦  «        ZdS )é    Nc                   ó   — e Zd Zd„ ZdS )ÚToolsc                 ó  — i dd“dd“dd“dd“dd	“d
+d“dd
+“dd“dd“dd“dd“dd“dd“dd“dd“dd“d d!“d"d#d$œ¥}d%|z   d&z   }	 t          j        d'||¬(¦  «        }|                     ¦   «         d)         d*         d+         d,         S #  Y d-S xY w).NÚ
+Connectionz
+keep-aliveÚPragmazno-cachez
+Cache-Controlz	sec-ch-uaz@" Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"zAccept-Languagezen-USzsec-ch-ua-mobilez?0zClient-Versionz$7b9843d8-1916-4c86-aeb3-7850e2896464ú
+User-AgentzsMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36úContent-Typeztext/plain;charset=UTF-8zClient-Session-IdÚ51789c1a5bf92c65z	Client-IdÚkimne78kx3ncx6brgo4mv6wki5h1kozX-Device-IdÚ xH9DusxeZ5JEV7wvmL8ODHLkDcg08Hgrzsec-ch-ua-platformz	"Windows"ÚAcceptz*/*ÚOriginzhttps://www.twitch.tvzSec-Fetch-Sitez	same-sitezSec-Fetch-ModeÚcorsÚemptyzhttps://www.twitch.tv/)zSec-Fetch-DestÚRefererzD[{"operationName": "WatchTrackQuery","variables": {"channelLogin": "zª","videoID": null,"hasVideoID": false},"extensions": {"persistedQuery": {"version": 1,"sha256Hash": "38bbbbd9ae2e0150f335e208b05cf09978e542b464a78c2d4952673cd02ea42b"}}}]úhttps://gql.twitch.tv/gql)ÚheadersÚdatar   r   ÚuserÚidF)ÚhttpxÚpostÚjson)Úselfr   r   r   Úresponses        úGc:\Users\lecho\OneDrive\Escritorio\dbt-twitch-bot-mobile\libs\twitch.pyÚuser_idz
+Tools.user_id   sÄ  € ð ^< ð  ^¨h¸
+ð  ^À?ÐT^ð  ^Ð_jð  moð  ^ð  pAð  CJð  ^ð  K]ð  _cð  ^ð  dtð  v\ð  ^ð  ]ið  k`ð  ^ð  aoð  qKð  ^ð  L_ð  asð  ^ð  tð  Aað  ^ð  boð  qS	ð  ^ð  T	h	ð  j	u	ð  ^ð  v	~	ð  @
+E
+ð  ^ð  F
+N
+ð  P
+g
+ð  ^ð  h
+x
+ð  z
+Eð  ^ð  FVð  X^ð  ^ð  qxð  D\ð  ^ð  ^ð  ^ˆØUÐVZÑZð  \Hñ  Hˆð	Ý”zÐ"=ÀwÐUYÐZÑZÔZˆHØ—=’=‘?”? 1Ô% fÔ-¨fÔ5°dÔ;Ð;øð	Ø55øøøs
+   ÁAB ÂBN)Ú__name__Ú
+__module__Ú__qualname__r   © ó    r   r   r      s#   € € € € € ðð ð ð ð r"   r   c                   ó   — e Zd Zd„ Zd„ ZdS )ÚFollowc                 ó   — i | _         d S )N)Úfollowed_tokens)r   s    r   Ú__init__zFollow.__init__   s   € Ø!ˆÔÐÐr"   c                 ó  ‡ ‡‡‡‡‡—  G d„ d¦  «        Šˆˆˆ ˆˆfd„Št          dd¦  «                             ¦   «                              ¦   «         ‰ _        ˆˆˆˆfd„}t	          j        |¬¦  «                             ¦   «          d S )Nc                   ó   — e Zd ZdZdZdS )ú#Follow.send_follow.<locals>.Threadsr   N)r   r   r    ÚthaÚfollowedr!   r"   r   ÚThreadsr*      s   € € € € € ØˆCØˆHˆHˆHr"   r-   c                 ó$  •— ‰j         dz   ‰_         ‰j        ‰k    rd S 	 d }d }t          t          ‰¦  «        ¦  «        D ]U} 	 t	          j        ‰¦  «                             d¦  «        \  }}}}}|‰
+j        vr n‰‰
+j        |         vr n
+d }ŒO#  Y ŒSxY w|d k    rd S t          j	        dt          ‰¦  «        ddœddddœid	œg¦  «        }d
+d|z   dd
+dddddddœ
+}dt	          j        ‰
+j        ¦  «        z   }	t          j
+        d|||	d¬¦  «        }
+t          |
+j        ¦  «         ‰j        dz   ‰_        |‰
+j        vr
+g ‰
+j        |<   ‰
+j        |                              ‰¦  «         n#  t#          j        ¦   «          Y nxY w‰j         dz
+  ‰_         d S )Né   ú|ÚFollowUserMutationF)ÚtargetIdÚdisableNotificationsÚpersistedQueryÚ@cd112d9483ede85fa0da514a5657141c24396efbc7bac0ea3623e839206573b8)ÚversionÚ
+sha256Hash)Ú
+operationNameÚ	variablesÚ
+extensionszmobile; Android/1500000zOAuth Úkd1unb4b3q4t58fwlpcbzcbnm76a8fpz
+Keep-Alivezapplication/jsonz
+gql.twitch.tvÚchunkedzbDalvik/2.1.0 (Linux; U; Android 7.1.2; SM-G988N Build/NRD90M) tv.twitch.android.app/15.0.0/1500000z15.0.0)
+zApi-Consumer-TypeÚ
+Authorizationz	Client-IDr   r	   ÚHostzTransfer-Encodingr   zX-APOLLO-OPERATION-NAMEz
+X-App-Versionzhttp://r   é(   )r   r   ÚproxyÚtimeout)r+   r,   ÚrangeÚlenÚrandomÚchoiceÚsplitr&   r   ÚdumpsÚstrÚproxiesr   r   ÚprintÚtextÚappendÚ	tracebackÚ	print_exc)ÚiÚtokenr@   Útoken_idÚtoken_usernameÚemailÚe_codeÚpayloadr   ÚproxieÚresr-   Úfollow_countr   Ú	target_idÚtokens_datas              €€€€€r   Úfollowz"Follow.send_follow.<locals>.follow   s  ø€ Ø!œ+¨™/ˆGŒKàÔ <Ò/Ð/°°ð=
+&Ø d˜eås ;Ñ/Ô/Ñ0Ô0ð ð Að
+ÝIOÌÐWbÑIcÔIc×IiÒIiÐjmÑInÔInÑF˜ %¨¸Àà$¨Ô(<Ð<Ð<Ø!˜EØ!*¨dÔ.BÀ5Ô.IÐ!IÐ!IØ!˜Eà$(˜E˜EøðØ˜øøøØ˜D’==ØFõ œ*à)=å$'¨	¡N¤NØ05ð&ð &ð
+ )Ø'(Ø*lð+ð +ð'ð
+ð ð&ñ ô ð" *CØ%-°Ñ%5Ø!BØ".Ø$6Ø+Ø)2ð #GØ/CØ%-ðð ð #¥6¤=°´Ñ#>Ô#>Ñ>Ý”jÐ!<À7ÐT[ÐdjÐsuÐvÑvÔvÝc”h‘”à#*Ô#3°aÑ#7Ô à Ô 4Ð4Ð4Ø24DÔ(¨Ñ/ØÔ$ UÔ+×2Ò2°9Ñ=Ô=Ð=Ð=øð
+&ÝÔ#Ñ%Ô%Ð%Ð%Ð%øøøà!œ+¨™/ˆGŒKˆKˆKsB   Ÿ"E' Á6BÁ8E' Á:BÂ	E' ÂBÂ
+E' ÂBÂE' ÂC	E' Å'E>zIC:\Users\lecho\OneDrive\Escritorio\dbt-twitch-bot-mobile\data\proxies.txtÚrc                  óT  •— d } t          ‰¦  «        ‰k     rt          ‰¦  «        } n‰} t          | ¦  «        D ]o}	 ‰j        | k    r d S t          j        d¦  «         ‰j        dk     r*t
+          j        ‰|f¬¦  «                             ¦   «          nt          j        d¦  «         ŒlŒpd S )NTg{®Gáz„?é   )ÚtargetÚargsr/   )	rC   rB   r,   ÚtimeÚsleepr+   Ú	threadingÚThreadÚstart)ÚcountrO   r-   r[   rX   rZ   s     €€€€r   re   z!Follow.send_follow.<locals>.startd   sÅ   ø€ àˆEÝ;ÑÔ ,Ò.Ð.Ý˜KÑ(Ô(à$å˜5‘\”\ð 	
+&ð 	
+&ð&ØÔ'¨5Ò0Ð0°&°&°&Ý”J˜tÑ$Ô$Ð$Ø”{ RÒ'Ð'Ý!Ô(Ø#)°°ð6ñ 6ô 6ß6;²e±g´g°gØåœ
+ 1™
+œ
+˜
+ð&ð ð	
+&ð 	
+&r"   )r_   )ÚopenÚreadÚ
+splitlinesrI   rc   rd   re   )r   rY   rX   rZ   re   r-   r[   s   ```` @@r   Úsend_followzFollow.send_follow   sð   øøøøøø€ ð	ð 	ð 	ð 	ð 	ñ 	ô 	ð 	ðD	*ð D	*ð D	*ð D	*ð D	*ð D	*ð D	*ð D	*ð D	*õL ÐnÐorÑsÔs×xÒxÑzÔz÷  Fò  Fñ  Hô  HˆŒð	&ð 	&ð 	&ð 	&ð 	&ð 	&ð 	&ð 	&õ& 	Ô Ð&Ñ&Ô&×,Ò,Ñ.Ô.Ð.Ð.Ð.r"   N)r   r   r    r'   rj   r!   r"   r   r$   r$      s7   € € € € € ð"ð "ð "ða/ð a/ð a/ð a/ð a/r"   r$   )r   r   ra   rc   rD   rM   r   r$   r!   r"   r   ú<module>rk      s±   ðØ 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6Ð 6ð	ð 	ð 	ð 	ð 	ñ 	ô 	ð 	ðf/ð f/ð f/ð f/ð f/ñ f/ô f/ð f/ð f/ð f/r"   
