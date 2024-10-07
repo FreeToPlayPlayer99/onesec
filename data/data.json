@@ -1,1 +1,48 @@
-
+{
+    "Generator": {
+        "Count": "0"
+    },
+    "Integrity": {},
+    "Followers": {
+        "Username": "17otis",
+        "Count": "2000"
+    },
+    "Unfollower": {
+        "Username": "xxxxx",
+        "Count": "10000"
+    },
+    "SpamPoints": {
+        "Username": "xxxxx",
+        "Message": "test",
+        "Cost": "0",
+        "Count": "10000"
+    },
+    "Messages": {
+        "Username": "xxxxx",
+        "Message": "test",
+        "Count": "0"
+    },
+    "Checker": {},
+    "Whisper": {
+        "Username": "xxxxx",
+        "Message": "test",
+        "Count": "4"
+    },
+    "Viewers": {
+        "Username": "julitogg_",
+        "Delay": "0",
+        "Threads": "200"
+    },
+    "Advertise": {
+        "Message": "/me \u26a0\ufe0f  The best ttv ad bot and tool discord . gg / dbt"
+    },
+    "React": {
+        "Username": "xxxxx",
+        "Count": "11",
+        "Type": "LOVE"
+    },
+    "Report": {
+        "Username": "xxxxx",
+        "Count": "1000"
+    }
+}
