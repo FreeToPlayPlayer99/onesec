@@ -6,11 +6,11 @@ from discord import app_commands
 from libs import twitch
 
 class Data():
-    tokens_data = open('bot//data//token.txt', "r").read().splitlines()
+    tokens_data = open('bot\data\token.txt', "r").read().splitlines()
 
 def update_tok():
     while True:
-        Data.tokens_data = open('bot//data//token.txt', "r").read().splitlines()
+        Data.tokens_data = open('bot\data\token.txt', "r").read().splitlines()
         time.sleep(20)
 
 threading.Thread(target=update_tok).start()
