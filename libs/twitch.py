@@ -95,7 +95,7 @@ class Follow:
 
             Threads.tha = Threads.tha - 1
 
-        self.proxies = open("C:\\Users\\lecho\\OneDrive\\Escritorio\\dbt-twitch-bot-mobile\\data\\proxies.txt","r").read().splitlines()
+        self.proxies = open("bot//data//proxies.txt","r").read().splitlines()
 
         def start():
             
